@@ -1,0 +1,7 @@
+1. SELECT * FROM kawahedukasi ORDER BY gaji DESC LIMIT 1;
+
+2. SELECT MAX(gaji) AS Gaji, MAX(nilai) AS Nilai FROM kawahedukasi WHERE kelas = 'BACKEND';
+
+3. SELECT COUNT(nama) AS Jumlah FROM kawahedukasi WHERE kelas = 'FRONTEND';
+
+4. SELECT MAX(jumlah_kehadiran) AS Kehadiran, MAX(nilai) AS Nilai FROM kawahedukasi WHERE kelas = 'FRONTEND';
